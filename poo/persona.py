@@ -1,7 +1,8 @@
 class Persona ():
-    def __init__(self,nombre,documento):
+    def __init__(self,nombre,documento,salario):
         self.__nombre = nombre
         self.__documento = documento
+        self.__salario = salario
         
     def getNombre (self):
         return self.__nombre
@@ -14,3 +15,9 @@ class Persona ():
     
     def setDocumento (self,documento):
         self.__documento = documento
+    
+    def getSalario (self):
+        return self.__salario
+    
+    def setSalario (self,salario):
+        self.__salario = salario
