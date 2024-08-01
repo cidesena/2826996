@@ -23,6 +23,15 @@ def calcularBase(person):
 
 print(f'Base de cotización= {calcularBase(per2)}')
 
+def incremento(person, p):
+    s=person.getSalario()
+    s+=(s*p)
+    person.setSalario(s)
+    return person
+print('-'*30)
+incremento(per2,0.10)
+print(per2.getSalario())
+
 
 
 
