@@ -7,3 +7,6 @@ myfile.close()
 
 # absoluta2=open('C:/Users/usuario/Dropbox/sena2024/Trimestre3-Julio08-Septiembre20/python2826996/files/prueba2.txt','a')
 
+s='estudiantes del sena adelante'
+print(s.split())
+
