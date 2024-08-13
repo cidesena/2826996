@@ -1,0 +1,12 @@
+print()
+# r=input('ingrese regional')
+# print()
+# d=input('ingrese documento')
+# print()
+# t=input('ingrese telefono')
+# print()
+# m=input('ingrese mail')
+# print()
+# #ob=Usuario(n,r,d,t,m)
+# # with open('classes/usuario.txt','a') as f:
+# #     f.write(n,r,d,t,m)
